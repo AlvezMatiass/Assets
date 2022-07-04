@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    width: 360px;
+    height: 360px;
+    margin: 2rem;
+    position: relative;
+    overflow: hidden;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.7562189054726368) 0%, rgba(0,0,0,0.39303482587064675) 35%, rgba(255,255,255,0) 100%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card img {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button {
+    transform: translateY(310%);
+    padding: 0 0 0 .5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.info--tittle {
+    font-size: 1.5rem;
+}
+
+.info {
+    font-size: 1rem;
+}
