@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22181C;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    margin: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}

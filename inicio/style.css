@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a08e95;
+    font-family: 'Roboto', sans-serif;
+}
+
+.index--inicio {
+    width: 100%;
+    margin: 5rem 0 0 0;
+}
+
+.inicioList {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-style: italic;
+    margin: 1.5rem;
+    animation: Empezar 2s;
+}
+
+@keyframes Empezar {
+    from {transform: translateX(-50%);}
+    to {transform: translateX(0%);}
+}
+
+.inicioLink {
+    text-decoration: none;
+    color: #111;
+}
+
+.inicioLink:hover {
+    color: rgb(71, 71, 71);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #111;
+    overflow: hidden;
+    animation: Circulo 4s infinite;
+}
+
+@keyframes Circul {
+    0% {
+        border-radius: 0%;
+    }
+    50% {
+        border-radius: 100%;
+    }
+    100% {
+        border-radius: 0%;
+    }
+}
+
+.boxCaja {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2.5rem 0 0 0;
+}
+
+.boxContenido {
+    color: white;
+    font-weight: 700;
+    line-height: 11px;
+    font-size: 1.2rem;
+}
+
+.season {
+    color: #a0abca;
+}
+
+.reco--recoBox {
+    width: 600px;
+    background-color: rgb(173, 172, 177);
+    display: flex;
+    margin: 1rem;
+    padding: .8rem;
+    border-radius: 5px;
+}
+
+.reco--recoIMG img {
+    width: 200px;
+}
+
+.reco--recoInfo {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.reco--recoTittle {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.reco--sinopsis {
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 5px 0 1px 0;
+}
+
+.reco--recoSinopsis {
+    font-size: .9rem;
+}
+
+.reco--recoLogos {
+    display: flex;
+    padding: .5rem 0;
+}
+
+.reco--recoLogo img {
+    width: 25px;
+}
+
+.reco--recoLogoDos img {
+    width: 40px;
+}
+
+.reco--recoLogoTres img {
+    width: 20px;
+}
